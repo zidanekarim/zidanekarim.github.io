@@ -18,8 +18,18 @@ body {
     text-align: center;
     padding: 30px;
 }
-  .something {
+  #something {
     border: 5px solid powderblue;
     color: turquoise;
     font-family: 'Reggae One', cursive;
-}
+  }
+  button {
+    display: inline-block;
+    background-color: red;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 1980px;
+    margin: 5px;
+  }
