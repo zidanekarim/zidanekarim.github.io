@@ -23,9 +23,20 @@ body {
     color: turquoise;
     font-family: 'Reggae One', cursive;
   }
-  button {
+  .button {
     display: inline-block;
     background-color: red;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100%;
+    margin: 5px;
+  }
+
+  #totalclicks {
+    display: inline-block;
+    background-color: powderblue;
     color: #eeeeee;
     text-align: center;
     font-size: 28px;
