@@ -1,0 +1,39 @@
+
+
+#title {
+  color: #DADBDD;
+  padding-top: 15%;
+  font-size: 400%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: fade-in 1.5s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+    color: #9ea1a7;
+}
+
+a {
+  color: #487de7;
+  text-decoration: none;
+  transform: translateZ(0);
+  transition: font-size ease-in-out .1s;
+  will-change: transform;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+@media (max-width: 768px) {
+  #title {
+    height: 70vh;
+  }
+}
+

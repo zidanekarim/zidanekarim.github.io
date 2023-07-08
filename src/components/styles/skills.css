@@ -1,0 +1,55 @@
+h1 {
+  color: #DADBDD;
+  text-align: center; /* Center-align the heading */
+}
+
+.skills {
+  margin-top: 20px;
+  display: flex; /* Add flex display for centering */
+  justify-content: center; /* Center the skills section */
+}
+
+.skills-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill-card {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #DADBDD;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+.skill-card:hover p, .skill-card:hover h3 {
+  border-color: darkgrey;
+  color: black;
+  font-weight: bold;
+}
+.skill-card:hover {
+  background-color: rgb(194, 84, 102);;
+}
+
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.skill-card h3,
+.skill-card p {
+  margin: 0;
+  padding: 0;
+}
+
+.skill-card p {
+  font-size: 14px;
+  margin-top: 5px;
+}
