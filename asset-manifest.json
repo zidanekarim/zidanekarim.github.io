@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b65b652.css",
-    "main.js": "/static/js/main.fb9ecb27.js",
-    "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
-    "static/media/zidane.jpg": "/static/media/zidane.521fec3d141a8a636549.jpg",
-    "static/media/flask.png": "/static/media/flask.05812984f3fdf7576405.png",
-    "static/media/html.png": "/static/media/html.c7a72cd06e6dae9bc704.png",
-    "static/media/css.png": "/static/media/css.4a6549b8c2b4cda8bb88.png",
-    "static/media/javascript.png": "/static/media/javascript.3dfb665e058d08c99f28.png",
-    "static/media/react.svg": "/static/media/react.b092ad79d6b9f2bf199975b337138927.svg",
-    "static/media/nodejs.svg": "/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
-    "static/media/python.svg": "/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
-    "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
-    "index.html": "/index.html",
-    "static/media/vercel.svg": "/static/media/vercel.778d3938e27b4a2eccac9c0171a5003e.svg",
-    "main.6b65b652.css.map": "/static/css/main.6b65b652.css.map",
-    "main.fb9ecb27.js.map": "/static/js/main.fb9ecb27.js.map",
-    "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
+    "main.css": "/zidanekarim.me/static/css/main.6b65b652.css",
+    "main.js": "/zidanekarim.me/static/js/main.2b192f1c.js",
+    "static/js/787.5c39024c.chunk.js": "/zidanekarim.me/static/js/787.5c39024c.chunk.js",
+    "static/media/zidane.jpg": "/zidanekarim.me/static/media/zidane.521fec3d141a8a636549.jpg",
+    "static/media/flask.png": "/zidanekarim.me/static/media/flask.05812984f3fdf7576405.png",
+    "static/media/html.png": "/zidanekarim.me/static/media/html.c7a72cd06e6dae9bc704.png",
+    "static/media/css.png": "/zidanekarim.me/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/javascript.png": "/zidanekarim.me/static/media/javascript.3dfb665e058d08c99f28.png",
+    "static/media/react.svg": "/zidanekarim.me/static/media/react.b092ad79d6b9f2bf199975b337138927.svg",
+    "static/media/nodejs.svg": "/zidanekarim.me/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
+    "static/media/python.svg": "/zidanekarim.me/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
+    "static/media/mongodb.svg": "/zidanekarim.me/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "index.html": "/zidanekarim.me/index.html",
+    "static/media/vercel.svg": "/zidanekarim.me/static/media/vercel.778d3938e27b4a2eccac9c0171a5003e.svg",
+    "main.6b65b652.css.map": "/zidanekarim.me/static/css/main.6b65b652.css.map",
+    "main.2b192f1c.js.map": "/zidanekarim.me/static/js/main.2b192f1c.js.map",
+    "787.5c39024c.chunk.js.map": "/zidanekarim.me/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b65b652.css",
-    "static/js/main.fb9ecb27.js"
+    "static/js/main.2b192f1c.js"
   ]
 }
