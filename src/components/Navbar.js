@@ -26,6 +26,8 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        
+
       </ul>
     </nav>
   );
