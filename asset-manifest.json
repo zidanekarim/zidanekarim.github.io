@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b65b652.css",
-    "main.js": "/static/js/main.fb9ecb27.js",
+    "main.js": "/static/js/main.36a3abc5.js",
     "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
     "static/media/zidane.jpg": "/static/media/zidane.521fec3d141a8a636549.jpg",
     "static/media/flask.png": "/static/media/flask.05812984f3fdf7576405.png",
@@ -10,16 +10,16 @@
     "static/media/javascript.png": "/static/media/javascript.3dfb665e058d08c99f28.png",
     "static/media/react.svg": "/static/media/react.b092ad79d6b9f2bf199975b337138927.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
-    "static/media/python.svg": "/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
-    "static/media/mongodb.svg": "/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "static/media/python.svg": "/static/media/python.b88fbbbfe6ac770a10a55000e8978bc4.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.d18b3c0417bd19d758ccab324a5a44a5.svg",
     "index.html": "/index.html",
-    "static/media/vercel.svg": "/static/media/vercel.778d3938e27b4a2eccac9c0171a5003e.svg",
+    "static/media/vercel.svg": "/static/media/vercel.5839efb8071d3d7bed497435d1d8c0b7.svg",
     "main.6b65b652.css.map": "/static/css/main.6b65b652.css.map",
-    "main.fb9ecb27.js.map": "/static/js/main.fb9ecb27.js.map",
+    "main.36a3abc5.js.map": "/static/js/main.36a3abc5.js.map",
     "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b65b652.css",
-    "static/js/main.fb9ecb27.js"
+    "static/js/main.36a3abc5.js"
   ]
 }
