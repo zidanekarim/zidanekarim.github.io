@@ -8,7 +8,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-        <h1><u>Contact Me</u></h1>
+        <h1><u>Socials</u></h1>
         <div className="social-icons">
         <a href="https://www.linkedin.com/in/zidanekarim" target="_blank" rel="noopener noreferrer">
           <img src={linkedinIcon} alt="LinkedIn" />

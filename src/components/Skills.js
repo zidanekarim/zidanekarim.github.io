@@ -23,7 +23,7 @@ const skillsData = [
     { name: 'Flask', description: 'Micro web framework for Python', icon: flask },
     { name: 'MongoDB', description: 'NoSQL database', icon: mongodb },
     { name: 'JSON', description: 'Lightweight data-interchange format',icon : json },
-    { name: 'HTML', description: 'Standard markup language',icon : html },
+    { name: 'HTML', description:  'Markup language',icon : html },
     { name: 'CSS', description: 'Style sheet language',icon : css },
     { name: 'Git', description: 'Version control system',icon : git },
     

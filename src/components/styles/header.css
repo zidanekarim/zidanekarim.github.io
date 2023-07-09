@@ -1,20 +1,54 @@
 
 
 #title {
-  color: #DADBDD;
-  padding-top: 15%;
   font-size: 400%;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
   margin-bottom: 20px;
-  opacity: 0;
-  animation: fade-in 1.5s ease-in-out forwards;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+
+#title:hover {
+  text-decoration: underline;
+  animation: rainbow-gradient 3s infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@keyframes rainbow-gradient {
+  0% {
+    background: #c0392b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: #c0392b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c0392b, #8e44ad, );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c0392b, #8e44ad); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+}
 h2 {
     color: #9ea1a7;
 }
@@ -35,5 +69,12 @@ a:hover {
   #title {
     height: 70vh;
   }
+}
+
+img {
+   /* lower image size and round it*/
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
 }
 

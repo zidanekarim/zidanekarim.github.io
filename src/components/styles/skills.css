@@ -28,12 +28,17 @@ h1 {
 }
 
 .skill-card:hover p, .skill-card:hover h3 {
-  border-color: darkgrey;
-  color: black;
   font-weight: bold;
+  
+  
 }
 .skill-card:hover {
-  background-color: rgb(194, 84, 102);;
+  border-radius: 10px;
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: padding-box;
+
 }
 
 
