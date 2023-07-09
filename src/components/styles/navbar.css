@@ -1,0 +1,33 @@
+.navbar {
+  padding: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list li {
+  color: #487de7;
+  cursor: pointer;
+  transition: font-size ease-in-out 0.1s;
+}
+
+.nav-list li:hover {
+  font-size: larger;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: underline;
+}
+

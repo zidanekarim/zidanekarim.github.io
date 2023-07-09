@@ -1,10 +1,11 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect} from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import {Routes, Route } from 'react-router-dom';
 import './App.css'
-
+import Navbar from './components/Navbar';
 
 const App = () => {
 
@@ -19,39 +20,17 @@ const App = () => {
   }, []);
 
   
-  const headerRef = useRef(null);
-  const aboutRef = useRef(null);
-  const skillsRef = useRef(null);
-  const contactRef = useRef(null);
-
-  const scrollToRef = (ref) => {
-    if (ref && ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  
 
   return (
     <div id="app" className="app">
-      <nav className="navbar">
-        <ul className="nav-list">
-          <li onClick={() => scrollToRef(headerRef)}>Home</li>
-          <li onClick={() => scrollToRef(aboutRef)}>About</li>
-          <li onClick={() => scrollToRef(skillsRef)}>Skills</li>
-          <li onClick={() => scrollToRef(contactRef)}>Socials</li>
-        </ul>
-      </nav>
-      <div ref={headerRef}>
-        <Header />
-      </div>
-      <div ref={aboutRef}>
-        <About />
-      </div>
-      <div ref={skillsRef}>
-        <Skills />
-      </div>
-      <div ref={contactRef}>
-        <Contact />
-      </div>
+     <Navbar />
+     <Routes>
+        <Route path="/" element={<Header />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
+     </Routes>
     </div>
   );
 };
